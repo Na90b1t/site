@@ -227,7 +227,8 @@ template {
   pointer-events: none;
 
   opacity: 0.4;
-  background: url('../img/frame.png') no-repeat top center/contain;
+  opacity: 0;
+  background: url('../img/frame.jpg') no-repeat top center/contain;
 }
 @media screen and (width: 1920px) {
   .body::before {
@@ -1838,13 +1839,20 @@ p {
   height: 50px;
 
   -webkit-transition: opacity 0.3s ease;
-          transition: opacity 0.3s ease; 
+          transition: opacity 0.3s ease;
   -webkit-transform: translate(0, -50%);
           transform: translate(0, -50%);
 
   opacity: 0.5;
   border-radius: 50%;
+  outline: none; 
   background-color: #4985ff;
+}
+.slick-arrow:hover,
+.slick-arrow:focus {
+  opacity: 1; 
+  -webkit-box-shadow: 0 0 0 2px #a3c5fb;
+          box-shadow: 0 0 0 2px #a3c5fb;
 }
 .slick-arrow::before {
   display: block;
