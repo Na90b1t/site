@@ -1478,7 +1478,7 @@ p {
 }
 @media screen and (max-width: 568px) {
   .about__line-decor {
-    margin-bottom: 22px;
+    margin-top: 32px;
   }
 }
 
@@ -1646,7 +1646,7 @@ p {
 }
 @media screen and (max-width: 568px) {
   .works__line-decor {
-    margin-bottom: 11px;
+    margin-top: 11px;
   }
 }
 
