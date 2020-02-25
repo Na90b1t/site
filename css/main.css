@@ -1732,6 +1732,9 @@ p {
   margin: 2px;
 }
 
+.projects {
+  background-color: #f6f6f8;
+}
 .projects__discription {
   margin-top: 101px;
 }
@@ -1745,7 +1748,6 @@ p {
     margin-top: 25px;
   }
 }
-
 .projects__gallery {
   margin: 63px -15px 0;
 }
@@ -1759,7 +1761,6 @@ p {
     margin-top: 8px;
   }
 }
-
 .projects__btn {
   display: -webkit-box;
   display: -webkit-flex;
