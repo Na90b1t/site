@@ -37,7 +37,7 @@ $(function() {
         modal: true
     });
     // указывем класс на который попап будет закрыт
-    $(document).on("click", ".popup-modal-dismiss", function(e) {
+    $(document).on("click", ".popup__btn-close", function(e) {
         e.preventDefault();
         $.magnificPopup.close();
     });
