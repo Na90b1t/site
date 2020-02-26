@@ -148,7 +148,7 @@
                                 <div class="video-btn"><button class="video-btn__btn" type="button" id="playBtn"></button>
                                     <p class="video-btn__text">Смотреть видео</p>
                                 </div>
-                            </div><video class="video-item__clip" src="./video/jojo.mp4" controls></video>
+                            </div><iframe width="731" height="411" src="https://www.youtube.com/embed/av0wEJPMwW8" frameborder="0" allowfullscreen></iframe>
                         </div>
                         <div class="line-decor video__line-decor"></div>
                     </div>
@@ -164,11 +164,10 @@
                     </div>
                 </div>
     </main>
-    <div id="test-modal" class="white-popup-block mfp-hide">
-        <h1>Modal dialog</h1>
-        <p>You won't be able to dismiss this by usual means (escape or click button), but you can close it programatically based on user choices or actions.</p>
-        <p><a class="popup-modal-dismiss" href="#">Dismiss</a></p>
-        <button class="mfp-close" type="button"></button>
+    <div class="popup mfp-hide" id="test-modal">
+        <div class="popup__btn-close"></div>
+        <div class="title popup__title">Modal dialog</div>
+        <p class="text popup__text">You won't be able to dismiss this by usual means (escape or click button), but you can close it programatically based on user choices or actions.</p><a class="link link_btn popup__link-btn" href="#">Confirm?</a>
     </div>
     <footer class="footer" id="contacts">
         <div class="l-wrap">
